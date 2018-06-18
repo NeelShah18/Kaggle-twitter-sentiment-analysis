@@ -1,0 +1,15 @@
+regex==2018.6.9
+pandas==0.23.0
+nltk==3.3
+urllib3==1.22
+numpy==1.13.3
+Keras==2.2.0
+Cython==0.28.3
+backports.functools_lru_cache==1.5
+com==1.0.0
+fasttext==0.8.3
+ipaddr==2.2.0
+ordereddict==1.1
+org==1.0.0
+scikit_learn==0.19.1
+wincertstore==0.2

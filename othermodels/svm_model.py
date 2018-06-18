@@ -4,8 +4,8 @@ import csv
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import svm
 
-train_tweets = pd.read_pickle('train_tweets_after_preprocess.pkl')
-test_tweets = pd.read_pickle('test_tweets_after_preprocess.pkl')
+train_tweets = pd.read_pickle('data/pickles/train_after_preprocess.pkl')
+test_tweets = pd.read_pickle('data/pickles/test_after_preprocess.pkl')
 
 # Transform data into tfidf vector
 def transform_tfidf_vector(train_tweets, test_tweets):
